@@ -28,7 +28,7 @@
 //👉 Write the function your CodeWarriors will start with below here:
  const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-export default function decodeTheMessage(str) {
+export default function encryptTheMessage(str) {
 let key;
 if (str.length <= 10) {
     key = 5;
