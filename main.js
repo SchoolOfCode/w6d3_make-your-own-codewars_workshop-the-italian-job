@@ -17,7 +17,7 @@
 // - the key tells you by how many places the letter was shifted forward, for example:
 //     with key 5, A has become F (position 1 has become 6);
 //     with key 10, B has become L (position 2 has become 12);
-//     with key 15, O has become D (position 15 has become 4);
+//     with key 15, O has become D (position 15 has become 4 - the alphabet only has 26 letters!);
 // - if while encrypting the message, the end of the alphabet was reached, we carried on counting from the start of the alphabet
 
 //  Examples:
