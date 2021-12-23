@@ -9,8 +9,9 @@
 
 // - If the length of the sentence is between 0 and 10, the key is 5;
 // - if the length of the sentence is between 11 and 20, the key is 10;
-// - if between 21 and 30, the key is 15;
-// - if between 31 and 40, the key is 20; 
+// - if the length of the sentence is between 21 and 30, the key is 15;
+// - if the length of the sentence is between 31 and 40, the key is 20;
+// - if the total length of the string is greater than 40, return "String is too long for decoding" 
 
 // How the message was encrypted:
 // - the key tells you by how many places the letter was shifted forward, for example:
@@ -21,15 +22,15 @@
 
 //  Examples:
     // a -> f
+    // z -> e
+    // zzzzzzzzzzz - > jjjjjjjjjjj (the value of z changes depending on the length of the input string)
     // hi -> mn
     // english -> jslqnxm
     // i like ice-cream -> s vsuo smo-mbokw
 
 // - Do not alter spaces or any characters outside of a-z
 // - Input will be always be lowercase, so you don't have to worry about that. 
-// - if the total length of the string is greather than 40, return "String is too long for encoding" 
-
 
 export function decodeTheMessage(str) {
     // Your very clever code goes here
-}
+      }
